@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaPipe Handpose</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer type="module" src="./app.js"></script>
+</head>
+
+<body>
+
+<section>
+    <h1>Rock Paper Scissors Detection</h1>
+    <button id="webcamButton">START WEBCAM</button>
+    <div class="videoView">
+        <div style="position: relative;">
+            <video id="webcam" style="position: absolute;" muted autoplay playsinline></video>
+            <canvas id="output_canvas" style="position: absolute; left: 0px; top: 0px;"></canvas>
+            <div id="myimage"></div>
+        </div>
+    </div>
+</section>
+<div id="predictionDiv"></div>
+</body>
+
+</html>
