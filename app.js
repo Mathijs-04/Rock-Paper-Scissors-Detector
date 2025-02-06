@@ -44,7 +44,7 @@ const createHandLandmarker = async () => {
             delegate: "GPU"
         },
         runningMode: "VIDEO",
-        numHands: 2
+        numHands: 1
     });
 
     enableWebcamButton.addEventListener("click", (e) => enableCam(e))
